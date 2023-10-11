@@ -21,9 +21,11 @@
 title: SURE STRIDE - Navigating Success with Agile Expertise
 email: dean@surestride.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to Sure Stride's Digital Hub: Where Expertise Meets Innovation!
+  Dive into a dynamic fusion of insightful blogs, a captivating portfolio, and a glimpse into my journey as a visionary business consultant and agile coach.
+  Unleash the power of strategic thinking and agile methodologies with a touch of creativity.
+  Let's embark on a transformative journey together, reshaping businesses for a future of unprecedented success and growth.
+  Explore, learn, and be inspired to redefine the possibilities!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MightContaiNuts
