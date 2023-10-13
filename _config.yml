@@ -11,11 +11,11 @@ title: Sure Stride
 # Description of the Site
 description: Navigating Success with Agile Expertise
 # URL of Image of the Site
-site-image: /assets/images/meta.jpg
+site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: assets/images/favicon.ico
+favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
@@ -23,7 +23,7 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: dean@surestride.net
-facebook_username: MightContainNuts
+facebook_username: thedevslot
 twitter_username: MightContainNuts
 instagram_username: MightContainNuts
 linkedin_username: dean-didion-b20a94ba/
@@ -50,43 +50,13 @@ sass:
   style: compressed
 
 # Build settings
-plugins:
-  - jekyll-admin
-  - jekyll-feed
+markdown: kramdown
+permalink: pretty
 
-# Permalink
-permalink: "blog/:title"
-
-# Compress
-compress_html:
-  clippings: all
-
-# Defaults
+#for posts
 defaults:
-  -
-    scope:
-      type: 'posts'
+  - scope:
+      path: ""
+      type: "posts"
     values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
-
-# Exclude
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+      permalink: ""
