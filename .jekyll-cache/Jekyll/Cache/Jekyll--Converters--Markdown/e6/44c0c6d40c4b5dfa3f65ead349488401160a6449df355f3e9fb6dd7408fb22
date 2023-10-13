@@ -1,0 +1,60 @@
+I"Ó<p>Code highlighting and styling is based on <a href="https://highlightjs.org/">highlight.js</a> and TailwindCSS customization.</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/harrywang/tailpages.git
+cd tailpages
+</code></pre></div></div>
+<p>â€¦</p>
+
+<p>To enable typography plugin, inter font, and customizations by updating <code class="language-plaintext highlighter-rouge">tailwid.config.js</code> as follows:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">defaultTheme</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">tailwindcss/defaultTheme</span><span class="dl">'</span><span class="p">)</span>
+
+<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="na">content</span><span class="p">:</span> <span class="p">[</span>
+    <span class="dl">'</span><span class="s1">./**/*.html</span><span class="dl">'</span>
+  <span class="p">],</span>
+  <span class="na">darkMode</span><span class="p">:</span> <span class="dl">'</span><span class="s1">media</span><span class="dl">'</span><span class="p">,</span>
+  <span class="na">theme</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">extend</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">typography</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">DEFAULT</span><span class="p">:</span> <span class="p">{</span>
+          <span class="na">css</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">pre</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">padding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">color</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#1F2933</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">backgroundColor</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#F3F3F3</span><span class="dl">"</span>
+            <span class="p">},</span>
+            <span class="na">code</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">padding</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.2em 0.4em</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">backgroundColor</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#F3F3F3</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">color</span><span class="p">:</span> <span class="dl">"</span><span class="s2">#DD1144</span><span class="dl">"</span><span class="p">,</span>
+              <span class="na">fontWeight</span><span class="p">:</span> <span class="dl">"</span><span class="s2">400</span><span class="dl">"</span><span class="p">,</span>
+              <span class="dl">"</span><span class="s2">border-radius</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">0.25rem</span><span class="dl">"</span>
+            <span class="p">},</span>
+            <span class="dl">"</span><span class="s2">code::before</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">code::after</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">blockquote p:first-of-type::before</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">blockquote p:last-of-type::after</span><span class="dl">"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+          <span class="p">},</span>
+        <span class="p">},</span>
+      <span class="p">},</span>
+      <span class="na">fontFamily</span><span class="p">:</span> <span class="p">{</span>
+        <span class="na">sans</span><span class="p">:</span> <span class="p">[</span><span class="dl">'</span><span class="s1">Inter var</span><span class="dl">'</span><span class="p">,</span> <span class="p">...</span><span class="nx">defaultTheme</span><span class="p">.</span><span class="nx">fontFamily</span><span class="p">.</span><span class="nx">sans</span><span class="p">],</span>
+      <span class="p">},</span>
+    <span class="p">},</span>
+  <span class="p">},</span>
+
+  <span class="na">variants</span><span class="p">:</span> <span class="p">{</span>
+    <span class="na">extend</span><span class="p">:</span> <span class="p">{},</span>
+  <span class="p">},</span>
+  <span class="na">plugins</span><span class="p">:</span> <span class="p">[</span>
+    <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">@tailwindcss/typography</span><span class="dl">'</span><span class="p">),</span>
+  <span class="p">],</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>See more examples at <a href="https://harrywang.me/2022/01/18/tailpages-tutorial-technical.html">here</a></p>
+:ET

@@ -1,30 +1,13 @@
 ---
-layout: compress
+layout: default
 ---
+{% if site.show-nav-menu %}
+  {% include nav.html%}
+{% endif %}
 
-<!DOCTYPE html>
-<html>
-{% include head.html %}
+<div class="px-4 pt-4 prose prose-{{site.theme-color}}">
+    <h1 class="text-center mt-6 mb-6">{{ page.title }}</h1>
+    {{content}}
+</div>
 
-<body>
-    {% include navbar.html %}
-    <section class="hero is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-centered" id="page-section">
-                <div class="section">
-                    <h1 class="title is-1 is-uppercase has-text-weight-bold">
-                        {{page.title}}
-                    </h1>
-                    <hr class="has-background-black">
-                    <div class="content is-marginless">
-                        {{ content }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Footer begins here-->
-    {% include footer.html %}
-</body>
-
-</html>
+{% include footer.html %}
