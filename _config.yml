@@ -36,7 +36,7 @@ footer:
   copyright: Dr. Henry Jekyll
   location: Location
   social: Around the Web
-  credits: Credits
+  #credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -51,11 +51,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Geiseltalsee
+  - line: <a href="https://maps.app.goo.gl/xQ83o4Tb3syVHB6r7"> 📍</a> Geiseltalsee
   - line: Sachsen Anhalt, Germany
 
 # Credits content
-#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
