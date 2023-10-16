@@ -49,6 +49,9 @@ social:
   - title: github
     url: https://github.com/MightContainNuts
 
+  - title: freelancer
+    url: https://www.freelancer.de/u/surestride68
+
 # Postal address (add as many lines as necessary)
 address:
   - line: <a href="https://maps.app.goo.gl/xQ83o4Tb3syVHB6r7"> 📍</a> Geiseltalsee
@@ -67,3 +70,4 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+

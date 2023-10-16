@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2023-10-16T10:14:36+02:00</updated>
+  <updated>2023-10-16T12:26:17+02:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,8 +20,8 @@
   
   
     <entry>
-      <title type="html">Project 1</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 1" />
+      <title type="html">Agile Training and Workshops</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Agile Training and Workshops" />
       <published>2014-07-18T00:00:00+02:00</published>
       <updated>2014-07-18T00:00:00+02:00</updated>
       <id>http://localhost:4000/project-1</id>
@@ -40,8 +40,6 @@
       </author>
 
       
-        <category term="Web Development" />
-      
 
       
 
@@ -54,8 +52,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 2</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 2" />
+      <title type="html">Improvement and Optimization</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Improvement and Optimization" />
       <published>2014-07-17T00:00:00+02:00</published>
       <updated>2014-07-17T00:00:00+02:00</updated>
       <id>http://localhost:4000/project-2</id>
@@ -74,8 +72,6 @@
       </author>
 
       
-        <category term="Web Development" />
-      
 
       
 
@@ -88,8 +84,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 3</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 3" />
+      <title type="html">Leadership Development</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Leadership Development" />
       <published>2014-07-16T00:00:00+02:00</published>
       <updated>2014-07-16T00:00:00+02:00</updated>
       <id>http://localhost:4000/project-3</id>
@@ -108,8 +104,6 @@
       </author>
 
       
-        <category term="Web Development" />
-      
 
       
 
@@ -122,8 +116,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 4</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 4" />
+      <title type="html">Change Management</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Change Management" />
       <published>2014-07-15T00:00:00+02:00</published>
       <updated>2014-07-15T00:00:00+02:00</updated>
       <id>http://localhost:4000/project-4</id>
@@ -142,8 +136,6 @@
       </author>
 
       
-        <category term="Web Development" />
-      
 
       
 
@@ -156,42 +148,8 @@
     </entry>
   
     <entry>
-      <title type="html">Project 6</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 6" />
-      <published>2014-07-15T00:00:00+02:00</published>
-      <updated>2014-07-15T00:00:00+02:00</updated>
-      <id>http://localhost:4000/project-6</id>
-      <content type="html" xml:base="http://localhost:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-        <category term="Web Development" />
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Project 5</title>
-      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Project 5" />
+      <title type="html">Mentoring</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Mentoring" />
       <published>2014-07-14T00:00:00+02:00</published>
       <updated>2014-07-14T00:00:00+02:00</updated>
       <id>http://localhost:4000/project-5</id>
@@ -210,7 +168,37 @@
       </author>
 
       
-        <category term="Web Development" />
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Agile Tools and Practices</title>
+      <link href="http://localhost:4000/" rel="alternate" type="text/html" title="Agile Tools and Practices" />
+      <published>2014-07-13T00:00:00+02:00</published>
+      <updated>2014-07-13T00:00:00+02:00</updated>
+      <id>http://localhost:4000/project-6</id>
+      <content type="html" xml:base="http://localhost:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
       
 
       
