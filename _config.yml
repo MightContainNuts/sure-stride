@@ -34,9 +34,10 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Sure Stride
   location: Location
   social: Around the Web
+  info: Created using Jekyll Freelancer template
   #credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
