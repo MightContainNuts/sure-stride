@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator>
   <link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" />
-  <updated>2024-08-05T10:38:16+00:00</updated>
+  <updated>2024-08-05T11:41:55+00:00</updated>
   <id>http://0.0.0.0:4000/</id>
 
   
@@ -20,107 +20,11 @@
   
   
     <entry>
-      <title type="html">Agile Training and Workshops</title>
-      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Agile Training and Workshops" />
-      <published>2014-07-18T00:00:00+00:00</published>
-      <updated>2014-07-18T00:00:00+00:00</updated>
-      <id>http://0.0.0.0:4000/project-1</id>
-      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Improvement and Optimization</title>
-      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Improvement and Optimization" />
-      <published>2014-07-17T00:00:00+00:00</published>
-      <updated>2014-07-17T00:00:00+00:00</updated>
-      <id>http://0.0.0.0:4000/project-2</id>
-      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Leadership Development</title>
-      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Leadership Development" />
-      <published>2014-07-16T00:00:00+00:00</published>
-      <updated>2014-07-16T00:00:00+00:00</updated>
-      <id>http://0.0.0.0:4000/project-3</id>
-      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name></name>
-        
-        
-      </author>
-
-      
-
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Change Management</title>
-      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Change Management" />
-      <published>2014-07-15T00:00:00+00:00</published>
-      <updated>2014-07-15T00:00:00+00:00</updated>
-      <id>http://0.0.0.0:4000/project-4</id>
+      <title type="html">Agile Tools and Practices</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Agile Tools and Practices" />
+      <published>2024-08-05T00:00:00+00:00</published>
+      <updated>2024-08-05T00:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/06_AgileTools</id>
       <content type="html" xml:base="http://0.0.0.0:4000/"></content>
 
       
@@ -150,9 +54,9 @@
     <entry>
       <title type="html">Mentoring</title>
       <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Mentoring" />
-      <published>2014-07-14T00:00:00+00:00</published>
-      <updated>2014-07-14T00:00:00+00:00</updated>
-      <id>http://0.0.0.0:4000/project-5</id>
+      <published>2024-08-05T00:00:00+00:00</published>
+      <updated>2024-08-05T00:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/05_Mentoring</id>
       <content type="html" xml:base="http://0.0.0.0:4000/"></content>
 
       
@@ -180,11 +84,107 @@
     </entry>
   
     <entry>
-      <title type="html">Agile Tools and Practices</title>
-      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Agile Tools and Practices" />
-      <published>2014-07-13T00:00:00+00:00</published>
-      <updated>2014-07-13T00:00:00+00:00</updated>
-      <id>http://0.0.0.0:4000/project-6</id>
+      <title type="html">Change Management</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Change Management" />
+      <published>2024-08-05T00:00:00+00:00</published>
+      <updated>2024-08-05T00:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/04_ChngeMgmt</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Leadership Development</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Leadership Development" />
+      <published>2024-08-05T00:00:00+00:00</published>
+      <updated>2024-08-05T00:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/03_LeadDev</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Improvement and Optimization</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Improvement and Optimization" />
+      <published>2024-08-05T00:00:00+00:00</published>
+      <updated>2024-08-05T00:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/02_ImpAndOpt</id>
+      <content type="html" xml:base="http://0.0.0.0:4000/"></content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Agile Training and Workshops</title>
+      <link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" title="Agile Training and Workshops" />
+      <published>2024-08-05T00:00:00+00:00</published>
+      <updated>2024-08-05T00:00:00+00:00</updated>
+      <id>http://0.0.0.0:4000/01_AgileTrgWshps</id>
       <content type="html" xml:base="http://0.0.0.0:4000/"></content>
 
       

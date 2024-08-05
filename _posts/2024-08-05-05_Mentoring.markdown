@@ -1,0 +1,8 @@
+---
+title: Mentoring
+layout: default
+modal-id: 5
+img: mentoring.png
+alt: Mentoring
+description: Our Mentoring service offers personalized guidance and support to individuals and teams on their Agile journey. Whether you are a new Agile practitioner or an experienced professional looking to deepen your expertise, our mentoring program provides one-on-one coaching, feedback, and advice tailored to your specific needs. We focus on developing your skills, addressing challenges, and fostering a growth mindset. Through our mentoring, you will gain the confidence and knowledge to excel in your Agile roles and contribute to your organization’s success.
+---

@@ -1,8 +1,0 @@
----
-title: Agile Tools and Practices
-layout: default
-modal-id: 6
-img: submarine.png
-alt: image-alt
-description: Assisting in the adoption and effective use of Agile tools and practices such as backlog management, burndown charts, etc.
----

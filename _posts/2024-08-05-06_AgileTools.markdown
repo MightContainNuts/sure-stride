@@ -1,0 +1,8 @@
+---
+title: Agile Tools and Practices
+layout: default
+modal-id: 6
+img: agile.png
+alt: Agile Tools and Practices
+description: Our Agile Tools service provides expertise in selecting, implementing, and optimizing the right tools to support your Agile practices. We help you navigate the vast landscape of Agile tools, including project management software, collaboration platforms, and metrics tracking systems. Our approach ensures that the tools you choose align with your processes and enhance productivity, transparency, and communication within your teams. Additionally, we offer training and support to ensure that your teams can effectively utilize these tools to achieve their Agile goals.
+---

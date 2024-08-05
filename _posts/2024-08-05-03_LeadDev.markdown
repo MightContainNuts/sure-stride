@@ -1,0 +1,9 @@
+---
+title: Leadership Development
+layout: default
+modal-id: 3
+img: leadership.png
+alt: Leadership Development
+description: Our Leadership Development program is aimed at empowering leaders to drive and sustain Agile transformations. We provide coaching and mentoring to leaders at all levels, helping them develop the skills and mindset needed to lead Agile teams effectively. Our program covers essential topics such as servant leadership, decision-making in Agile environments, fostering a culture of collaboration and innovation, and leading by example. By investing in leadership development, you ensure that your leaders can inspire and guide their teams towards achieving organizational agility.
+---
+

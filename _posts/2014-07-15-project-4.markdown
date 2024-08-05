@@ -1,8 +1,0 @@
----
-title: Change Management
-layout: default
-modal-id: 4
-img: game.png
-alt: image-alt
-description: Assisting in managing the organizational change process to ensure successful Agile adoption.
----

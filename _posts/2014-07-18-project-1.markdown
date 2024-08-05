@@ -1,8 +1,0 @@
----
-title: Agile Training and Workshops
-layout: default
-modal-id: 1
-img: cabin.png
-alt: image-alt
-description: Providing education and hands-on training in Agile principles, methodologies, and practices.
----
