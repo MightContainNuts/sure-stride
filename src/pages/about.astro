@@ -1,0 +1,138 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="About" description="Dean Didion — experienced engineering manager, agile coach, and mentor based in Germany.">
+
+  <!-- Page header -->
+  <section class="relative bg-slate-900 pt-32 pb-20 overflow-hidden">
+    <div
+      class="absolute inset-0 opacity-[0.04]"
+      style="background-image: repeating-linear-gradient(-45deg, white, white 1px, transparent 1px, transparent 28px);"
+      aria-hidden="true"
+    ></div>
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-600" aria-hidden="true"></div>
+    <div class="relative max-w-6xl mx-auto px-6">
+      <p class="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-4">The Person Behind the Work</p>
+      <h1 class="text-white text-5xl md:text-6xl font-extrabold mb-6">About</h1>
+      <p class="text-slate-300 text-xl max-w-2xl leading-relaxed">
+        Engineering manager, agile practitioner, and mentor with a track record of building
+        high-performing teams and delivering complex projects from the ground up.
+      </p>
+    </div>
+  </section>
+
+  <!-- Bio -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+
+        <!-- Main bio -->
+        <div class="lg:col-span-2 space-y-6 text-slate-600 leading-relaxed text-lg">
+          <p>
+            I'm an experienced engineering manager with a strong track record in greenfield start-up
+            projects — not just getting them off the ground, but driving them through to successful
+            delivery. Building solid foundations in uncharted territory is where I operate best.
+          </p>
+          <p>
+            Recruitment is one of my core strengths. I've repeatedly assembled high-performing teams
+            by identifying and onboarding engineers and managers whose skills, values, and ways of
+            working are precisely matched to what a project demands. The right people, in the right
+            roles, at the right time — that's where teams become exceptional.
+          </p>
+          <p>
+            Agile is more than a methodology to me — it's a mindset. I believe that genuine agility
+            is what separates teams that adapt and improve from those that just follow a process.
+            Mentorship and servant leadership sit at the core of how I manage. I get real satisfaction
+            from watching people grow — technically, professionally, and as leaders in their own right.
+          </p>
+          <p>
+            I'm a committed advocate for innovation and knowledge sharing. I work to create environments
+            where engineers feel safe to push boundaries, experiment, and learn from failure. Fluent in
+            English and German, I've worked with diverse, multi-cultural teams across Europe and bring
+            a natural ease to the communication challenges that come with that territory.
+          </p>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="space-y-8">
+          <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100">
+            <p class="text-slate-900 text-sm font-semibold uppercase tracking-widest mb-5">Expertise</p>
+            <ul class="space-y-3">
+              {[
+                'Agile Coaching & Transformation',
+                'Engineering Management',
+                'Team Building & Recruitment',
+                'Mentorship & Career Development',
+                'Servant Leadership',
+                'Multicultural Team Dynamics',
+              ].map((item) => (
+                <li class="flex items-center gap-3 text-slate-600 text-sm">
+                  <span class="w-1.5 h-1.5 rounded-full bg-teal-500 flex-shrink-0"></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100">
+            <p class="text-slate-900 text-sm font-semibold uppercase tracking-widest mb-5">Languages</p>
+            <ul class="space-y-2 text-slate-600 text-sm">
+              <li class="flex justify-between"><span>English</span><span class="text-teal-500 font-medium">Native</span></li>
+              <li class="flex justify-between"><span>German</span><span class="text-teal-500 font-medium">Fluent</span></li>
+            </ul>
+          </div>
+
+          <div class="bg-slate-50 rounded-2xl p-8 border border-slate-100">
+            <p class="text-slate-900 text-sm font-semibold uppercase tracking-widest mb-5">Location</p>
+            <p class="text-slate-600 text-sm">Geiseltalsee, Sachsen-Anhalt<br/>Germany</p>
+            <p class="text-slate-600 text-sm mt-2">Working globally</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resume downloads -->
+      <div class="mt-16 pt-12 border-t border-slate-100">
+        <p class="text-slate-900 text-sm font-semibold uppercase tracking-widest mb-6">Download Resume</p>
+        <div class="flex flex-wrap gap-4">
+          <a
+            href="/img/202407_Resume_Eng.pdf"
+            download
+            class="flex items-center gap-3 bg-teal-500 hover:bg-teal-400 text-white px-7 py-3.5 rounded-lg font-semibold transition-colors shadow-lg shadow-teal-500/20"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+            </svg>
+            Resume (English) 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+          </a>
+          <a
+            href="/img/202407_Resume_DEU.pdf"
+            download
+            class="flex items-center gap-3 border border-slate-200 hover:border-teal-300 text-slate-700 hover:text-slate-900 px-7 py-3.5 rounded-lg font-semibold transition-colors"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+            </svg>
+            Lebenslauf (Deutsch) 🇩🇪
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-slate-900 py-20 border-t border-slate-800">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-white text-3xl font-bold mb-4">Let's work together</h2>
+      <p class="text-slate-400 text-lg mb-10">
+        Looking for an agile coach, engineering leader, or mentor? Get in touch.
+      </p>
+      <a
+        href="/contact"
+        class="inline-block bg-teal-500 hover:bg-teal-400 text-white font-semibold px-10 py-4 rounded-lg transition-colors text-lg shadow-lg shadow-teal-500/20"
+      >
+        Start the Conversation
+      </a>
+    </div>
+  </section>
+
+</Layout>

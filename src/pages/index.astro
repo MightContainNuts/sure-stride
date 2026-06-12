@@ -1,0 +1,114 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const services = [
+  {
+    title: 'Agile Coaching',
+    description: 'Transform your team\'s delivery with proven agile practices. From Scrum and Kanban to scaled frameworks, I help teams build the mindset and habits that drive real agility — not just ceremony.',
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>',
+  },
+  {
+    title: 'Engineering Management',
+    description: 'End-to-end leadership for greenfield and scaling engineering projects. Technical direction, delivery ownership, and cross-functional coordination — with a track record of launching on time.',
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>',
+  },
+  {
+    title: 'Recruitment & Team Building',
+    description: 'Building high-performing teams from the ground up. Meticulous, role-aligned hiring combined with onboarding strategies that get engineers contributing quickly and staying long.',
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>',
+  },
+  {
+    title: 'Mentorship',
+    description: 'One-to-one coaching for engineers and managers at every career stage. From technical growth to leadership transitions, I provide structured guidance and accountability to accelerate development.',
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>',
+  },
+];
+---
+<Layout title="Sure Stride" description="Agile coaching, engineering management, and mentorship with Dean Didion. Based in Germany, working globally.">
+
+  <!-- Hero -->
+  <section class="relative min-h-screen flex items-center bg-slate-900 overflow-hidden">
+    <div
+      class="absolute inset-0 opacity-[0.04]"
+      style="background-image: repeating-linear-gradient(-45deg, white, white 1px, transparent 1px, transparent 28px);"
+      aria-hidden="true"
+    ></div>
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-600" aria-hidden="true"></div>
+
+    <div class="relative max-w-6xl mx-auto px-6 pt-24 pb-24">
+      <p class="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-5">Sure Stride</p>
+      <h1 class="text-white text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+        Dean Didion
+      </h1>
+      <p class="text-slate-300 text-xl md:text-2xl font-light mb-6">
+        Agile Coach
+        <span class="text-teal-500 mx-2">·</span>
+        Engineering Manager
+        <span class="text-teal-500 mx-2">·</span>
+        Mentor
+      </p>
+      <p class="text-slate-400 text-lg max-w-2xl leading-relaxed mb-12">
+        Helping teams and organisations move faster, build better, and grow stronger —
+        through agile coaching, engineering leadership, and people-first mentorship.
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <a
+          href="/services"
+          class="bg-teal-500 hover:bg-teal-400 text-white px-8 py-3.5 rounded-lg font-semibold transition-colors text-base shadow-lg shadow-teal-500/20"
+        >
+          Explore Services
+        </a>
+        <a
+          href="/contact"
+          class="border border-slate-600 hover:border-teal-500 hover:text-white text-slate-300 px-8 py-3.5 rounded-lg font-semibold transition-colors text-base"
+        >
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services preview -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <p class="text-teal-500 text-sm font-semibold tracking-widest uppercase mb-3">What I Do</p>
+        <h2 class="text-slate-900 text-4xl font-bold">Services</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {services.map(({ title, description, icon }) => (
+          <div class="group bg-slate-50 rounded-2xl p-8 border border-slate-100 hover:border-teal-200 hover:shadow-xl hover:shadow-teal-50 transition-all duration-300">
+            <div class="w-12 h-12 bg-teal-50 group-hover:bg-teal-100 rounded-xl flex items-center justify-center mb-6 transition-colors">
+              <svg class="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={icon} />
+            </div>
+            <h3 class="text-slate-900 text-xl font-semibold mb-3">{title}</h3>
+            <p class="text-slate-600 leading-relaxed">{description}</p>
+          </div>
+        ))}
+      </div>
+      <div class="text-center mt-12">
+        <a href="/services" class="text-teal-500 hover:text-teal-400 font-semibold transition-colors">
+          See full details →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="bg-teal-500 py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-white text-4xl font-bold mb-4">Ready to move forward?</h2>
+      <p class="text-teal-100 text-lg mb-10">
+        Whether you need agile coaching for your team, engineering leadership, or personal mentorship —
+        let's talk about what's possible.
+      </p>
+      <a
+        href="/contact"
+        class="inline-block bg-white hover:bg-slate-50 text-teal-600 font-semibold px-10 py-4 rounded-lg transition-colors text-lg shadow-lg"
+      >
+        Start the Conversation
+      </a>
+    </div>
+  </section>
+
+</Layout>

@@ -1,0 +1,144 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const services = [
+  {
+    title: 'Agile Coaching',
+    tagline: 'Real agility, not just ceremony',
+    description: [
+      'Agile transformation starts with mindset, not frameworks. I work with teams and organisations to understand where they are today — and build the practices, habits, and culture that make agility sustainable.',
+      'Whether you\'re introducing Scrum for the first time, scaling to multiple teams, or trying to fix a process that\'s broken in practice, I bring hands-on experience across a wide range of delivery contexts.',
+    ],
+    highlights: [
+      'Scrum, Kanban, and hybrid frameworks',
+      'Team-level and organisational transformation',
+      'Facilitation, retrospectives, and continuous improvement',
+      'Stakeholder alignment and delivery rhythm',
+    ],
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>',
+  },
+  {
+    title: 'Engineering Management',
+    tagline: 'Leadership from day one to delivery',
+    description: [
+      'I specialise in greenfield engineering initiatives — standing up teams, defining processes, and driving delivery from inception to launch. Equally comfortable in established organisations navigating growth or change.',
+      'My approach combines technical fluency with people-first leadership. I believe the best engineering managers remove obstacles, set clear direction, and create the conditions for their teams to do their best work.',
+    ],
+    highlights: [
+      'Greenfield project leadership and delivery',
+      'Team structure, process design, and tooling',
+      'Cross-functional coordination and stakeholder management',
+      'Engineering culture, quality, and velocity',
+    ],
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>',
+  },
+  {
+    title: 'Recruitment & Team Building',
+    tagline: 'Build the team you actually need',
+    description: [
+      'Hiring well is one of the highest-leverage activities an engineering leader can do. I bring a structured, role-aligned approach to recruitment that focuses on genuine skills, team fit, and long-term retention.',
+      'Beyond hiring, I help teams develop onboarding processes that accelerate contribution and set engineers up for success from day one.',
+    ],
+    highlights: [
+      'Role definition and hiring process design',
+      'Technical interview design and evaluation',
+      'Onboarding strategy and contributor acceleration',
+      'Multi-cultural and multilingual team dynamics',
+    ],
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>',
+  },
+  {
+    title: 'Mentorship',
+    tagline: 'Guidance that sticks',
+    description: [
+      'Whether you\'re an engineer looking to grow into leadership, a new manager finding your footing, or an experienced leader working through a specific challenge — structured mentorship makes the difference.',
+      'I provide a consistent, accountable space to work through real problems, build new skills, and develop the confidence to lead effectively at whatever level you\'re at.',
+    ],
+    highlights: [
+      'Individual coaching for engineers and managers',
+      'Technical to leadership career transitions',
+      'Soft skills, communication, and ownership',
+      'Goal setting, reflection, and progress tracking',
+    ],
+    icon: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>',
+  },
+];
+---
+<Layout title="Services" description="Agile coaching, engineering management, recruitment, and mentorship services from Dean Didion at Sure Stride.">
+
+  <!-- Page header -->
+  <section class="relative bg-slate-900 pt-32 pb-20 overflow-hidden">
+    <div
+      class="absolute inset-0 opacity-[0.04]"
+      style="background-image: repeating-linear-gradient(-45deg, white, white 1px, transparent 1px, transparent 28px);"
+      aria-hidden="true"
+    ></div>
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-teal-500 via-teal-400 to-teal-600" aria-hidden="true"></div>
+    <div class="relative max-w-6xl mx-auto px-6">
+      <p class="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-4">What I Offer</p>
+      <h1 class="text-white text-5xl md:text-6xl font-extrabold mb-6">Services</h1>
+      <p class="text-slate-300 text-xl max-w-2xl leading-relaxed">
+        Practical, results-focused engagements tailored to where your team or organisation actually is —
+        not where a textbook says you should be.
+      </p>
+    </div>
+  </section>
+
+  <!-- Service cards -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="space-y-12">
+        {services.map(({ title, tagline, description, highlights, icon }, i) => (
+          <div class={`rounded-2xl p-10 border ${i % 2 === 0 ? 'bg-white border-slate-100 shadow-sm' : 'bg-slate-50 border-slate-100'}`}>
+            <div class="flex flex-col md:flex-row gap-10">
+              <div class="flex-1">
+                <div class="flex items-center gap-4 mb-4">
+                  <div class="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <svg class="w-6 h-6 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={icon} />
+                  </div>
+                  <div>
+                    <h2 class="text-slate-900 text-2xl font-bold">{title}</h2>
+                    <p class="text-teal-500 text-sm font-medium">{tagline}</p>
+                  </div>
+                </div>
+                {description.map((para) => (
+                  <p class="text-slate-600 leading-relaxed mb-4">{para}</p>
+                ))}
+              </div>
+              <div class="md:w-64 flex-shrink-0">
+                <p class="text-slate-900 text-sm font-semibold uppercase tracking-widest mb-4">Includes</p>
+                <ul class="space-y-3">
+                  {highlights.map((item) => (
+                    <li class="flex items-start gap-3 text-slate-600 text-sm">
+                      <svg class="w-4 h-4 text-teal-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                      </svg>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-teal-500 py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-white text-3xl font-bold mb-4">Interested in working together?</h2>
+      <p class="text-teal-100 text-lg mb-10">
+        Every engagement starts with a conversation. Get in touch to discuss what you need.
+      </p>
+      <a
+        href="/contact"
+        class="inline-block bg-white hover:bg-slate-50 text-teal-600 font-semibold px-10 py-4 rounded-lg transition-colors text-lg shadow-lg"
+      >
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+</Layout>
